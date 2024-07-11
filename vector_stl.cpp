@@ -35,6 +35,8 @@ int main() {
     fourth.clear(); // clear entire vector
     cout << fourth.size() << endl;
 
+    fourth.reserve(100); // we can reserve 100 capacity like this
+
     return 0;
 }
 /* Output :
